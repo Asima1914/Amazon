@@ -6,7 +6,8 @@ it('add product',()=>{
     cy.get('.product').eq(3).contains('ADD TO CART').click()
     cy.get('.increment').eq(3).contains('+').click()
     cy.get('.decrement').eq(3).click({force : true})
-    cy.screenshot('test1')
+    c
+    y.screenshot('test1')
     cy.get('.brand.greenLogo').screenshot('greenKart')
 })
-})     
+})   
